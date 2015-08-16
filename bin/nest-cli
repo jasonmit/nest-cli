@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+'use strict';
+
+var iojs = require('is-iojs');
+
+if (!iojs || iojs && parseInt(process.version.split('.')[0].replace('v', ''), 10) < 3) {
+  require('babel/register')({ ignore: /nest-cli\/node_modules/ });
+}
+
+require('../index');

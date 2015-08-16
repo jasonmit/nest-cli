@@ -6,7 +6,9 @@ An unofficial command-line tool for managing your Nest thermostat.
 
 * `git clone git@github.com:jasonmit/nest-cli.git`
 * `cd nest-cli && npm install && npm link`
-* Generate a `CLIENT_ID` and `CLIENT_SECRET` https://developer.nest.com/documentation/cloud/how-to-auth/
+* Register a Nest application https://developer.nest.com/clients/new
+  * Be sure to check: Away, Thermostat, Smoke+CO Alarm all with read/write access
+	* Copy the generated client ID and secret
 * `nest-cli config CLIENT_ID <ID> && nest-cli config CLIENT_SECRET <SECRET>`
 * `nest-cli login`
 * Done, you never have to do this again.

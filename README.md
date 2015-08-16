@@ -20,7 +20,7 @@ An unofficial command-line tool for managing your Nest thermostat.
 
 * Register a Nest application https://developer.nest.com/clients/new
   * Be sure to check: Away, Thermostat, Smoke+CO Alarm all with read/write access
-	* Copy the generated client ID and secret
+  * Copy the generated client ID and secret
 * `nest-cli config CLIENT_ID <ID> && nest-cli config CLIENT_SECRET <SECRET>`
 * `nest-cli login`
 * Done, you never have to do this again.
@@ -32,14 +32,17 @@ An unofficial command-line tool for managing your Nest thermostat.
 ```sh
 Commands:
 
-	login                            login to your nest account via oauth
-	config <key> [value]             get/set a configuration option
-	devices|ls [options]             get a list of known devices
-	default-device <deviceId>        sets the default device id
-	temp|t <mode> <temp> [deviceId]  modes: cool, heat, heat-cool
-	state|s <mode> [deviceId]        available modes: cool, heat, heat-cool, off
-	read|r [deviceId]                reads a device by device id
-	off [deviceId]                   turns off the HVAC
+  login                                login to your nest account via oauth
+  logout                               logout of nest account
+  config <key> [value]                 get/set a configuration option
+  default-termostat <thermostatId>     sets the default thermostat device id
+  devices|ls [options]                 get a list of known devices
+  temp|t <mode> <temp> [thermostatId]  modes: cool, heat, heat-cool
+  away <mode> [structureId]            available modes: home, away, auto-away, unknown
+  structures [options]                 list of structures associated with account
+  state|s <mode> [thermostatId]        available modes: cool, heat, heat-cool, off
+  read|r [deviceId]                    reads a device by device id
+  off [thermostatId]                   turns off thermostat
 ```
 
 ## Set Default Thermostat

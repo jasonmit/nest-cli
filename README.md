@@ -41,8 +41,13 @@ Commands:
   away <mode> [structureId]            available modes: home, away, auto-away, unknown
   structures [options]                 list of structures associated with account
   state|s <mode> [thermostatId]        available modes: cool, heat, heat-cool, off
-  read|r [deviceId]                    reads a device by device id
-  off [thermostatId]                   turns off thermostat
+  read|r [thermostatId]                read a thermostat by device id
+  off [thermostatId]                   turns off the HVAC
+
+Options:
+
+  -h, --help     output usage information
+  -V, --version  output the version number
 ```
 
 ## Set Default Thermostat
@@ -59,10 +64,10 @@ Once you determine which device you want to mark as your default:
 
 ## TODO
 
+* Live UI for monitoring stats
 * Fan mode
 * Fan scheduling
 * Away mode
-* Humidity toggle
 * Support Nest cam and Nest protect
 
 ## License

@@ -19,7 +19,7 @@ An unofficial command-line tool for managing your Nest thermostat.
 
 * `npm install nest-cli`
 
-### Setting the application
+### Configuring the application
 
 * Register a Nest application https://developer.nest.com/clients/new
   * Be sure to check: Away, Thermostat, Smoke+CO Alarm all with read/write access

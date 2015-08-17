@@ -1,4 +1,5 @@
 # nest-cli
+
 [![npm version](https://badge.fury.io/js/nest-cli.svg)](http://badge.fury.io/js/nest-cli)
 
 An unofficial command-line tool for managing your Nest thermostat.
@@ -10,10 +11,12 @@ An unofficial command-line tool for managing your Nest thermostat.
 ## Installing
 
 ### From Source
+
 * `git clone git@github.com:jasonmit/nest-cli.git`
 * `cd nest-cli && npm install && npm link`
 
 ### From npm
+
 * `npm install nest-cli`
 
 ### Setting the application

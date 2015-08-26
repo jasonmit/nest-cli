@@ -67,7 +67,7 @@ Once you determine which device you want to mark as your default:
 
 ## TODO
 
-* Live UI for monitoring stats
+* Live UI for monitoring stats (https://github.com/yaronn/blessed-contrib)
 * Fan mode
 * Fan scheduling
 * Away mode

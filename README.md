@@ -38,7 +38,7 @@ Commands:
   login                                login to your nest account via oauth
   logout                               logout of nest account
   config <key> [value]                 get/set a configuration option
-  default-termostat <thermostatId>     sets the default thermostat device id
+  default-thermostat <thermostatId>    sets the default thermostat device id
   devices|ls [options]                 get a list of known devices
   temp|t <mode> <temp> [thermostatId]  modes: cool, heat, heat-cool
   away <mode> [structureId]            available modes: home, away, auto-away, unknown

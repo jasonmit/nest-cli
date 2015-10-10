@@ -16,7 +16,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "babel": "^5.8.21",
     "cli-table": "^0.3.1",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
@@ -24,7 +23,6 @@
     "exists-sync": "0.0.3",
     "express": "^4.13.3",
     "express-session": "^1.11.3",
-    "is-iojs": "^1.1.0",
     "lodash": "^3.10.1",
     "mkdirp": "^0.5.1",
     "nconf": "^0.7.2",

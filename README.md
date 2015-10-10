@@ -6,7 +6,7 @@ An unofficial command-line tool for managing your Nest thermostat.
 
 ## Requirements
 
-* iojs >= 3.0.0 preferred (performance due to not having to use Babel) but node >= 0.10.x will suffice
+* node 4
 
 ## Installing
 

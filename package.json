@@ -4,7 +4,7 @@
   "description": "Unofficial command-line tool to control Nest devices",
   "main": "index.js",
   "engines": {
-    "iojs": ">= 3.0.0"
+    "node": ">= 4.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

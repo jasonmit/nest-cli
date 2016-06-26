@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "lint": "./node_modules/eslint/bin/eslint.js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {

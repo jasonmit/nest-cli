@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/nest-cli.svg)](http://badge.fury.io/js/nest-cli)
 
-An unofficial command-line tool for managing your Nest thermostat.
+An unofficial command-line tool for managing your Nest thermostat.  This was built as an exercise for learning the API.  Pull requests are welcome if you experience issues or want to improve the feature set.
 
 ## Requirements
 

@@ -24,7 +24,8 @@ An unofficial command-line tool for managing your Nest thermostat.  This was bui
 * Register a Nest application https://developers.nest.com/products/new
   * Be sure to check: Away, Thermostat, Smoke+CO Alarm all with read/write access
   * Copy the generated product ID and product secret
-* `nest-cli config PRODUCT_ID <ID> && nest-cli config PRODUCT_SECRET <SECRET>`
+* `nest-cli config PRODUCT_ID <ID>`
+* `nest-cli config PRODUCT_SECRET <SECRET>`
 * `nest-cli login` (if a window does not open, navigate to http://localhost:3000/auth/nest)
 * Done, you never have to do this again.
 

@@ -1,0 +1,16 @@
+{
+  "table_headers": {
+    "id": "ID",
+    "name": "Name",
+    "state": "State",
+    "mode": "Mode",
+    "humidity": "Humidity",
+    "target_temperature": "Target Temperature",
+    "target_temperature_low": "Target Temperature Low",
+    "target_temperature_high": "Target Temperature High",
+    "battery_health": "Battery Health",
+    "smoke_state": "Smoke State",
+    "co_state": "CO State",
+    "online": "Online"
+  }
+}
